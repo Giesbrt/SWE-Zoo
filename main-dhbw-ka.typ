@@ -61,5 +61,16 @@
 
 // You can now start writing :)
 
-#include "chapters/basic_formatting.typ"
+//#include "chapters/basic_formatting.typ"
+#include "chapters/01_zielbestimmung.typ"
+#include "chapters/02_produkteinsatz.typ"
+#include "chapters/03_zielgruppen.typ"
+#include "chapters/04_zusammenspiel.typ"
+#include "chapters/05_Verfuegbarkeitsbetrachtungen.typ"
+#include "chapters/06_produktfunktionen.typ"
+#include "chapters/07_produktdaten.typ"
+#include "chapters/08_produktleistung.typ"
+#include "chapters/09_benutzungsoberfläche.typ"
+#include "chapters/10_qualitaetsanforderungen.typ"
+#include "chapters/11_ergaenzungen.typ"
 

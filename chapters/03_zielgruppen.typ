@@ -1,0 +1,13 @@
+#import "../template/lib.typ": tablefigure
+
+= Zielgruppen, Benutzerrollen und Verantwortlichkeiten
+...
+
+== Zielgruppen
+...
+
+== Benutzerrollen
+...
+
+== Verantwortlichkeiten
+...
