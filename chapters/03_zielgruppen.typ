@@ -3,10 +3,16 @@
 = Zielgruppen, Benutzerrollen, Verantwortlichkeiten
 
 == Zielgruppen
-Die Zielgruppen des Produkts umfassen die Mitarbeiter des Karlsruher Zoos, insbesondere die Pfleger, Ärzte, Verwaltungsangestellten und das Management. Dabei wird mit mittelmäßigen Computerkenntnissen und grundlegender IT-Kompetenz gerechnet.
+Die Zielgruppen des Produkts umfassen die Mitarbeiter des Karlsruher Zoos, insbesondere die Pfleger, Ärzte, Verwaltungsangestellten und das Management. Dabei wird mit durchschnittlichen Computerkenntnissen und grundlegender IT-Kompetenz gerechnet.
 
 == Benutzerrollen
-Die Benutzerrollen im System sind auf die verschiedenen Aufgaben und Verantwortlichkeiten der Mitarbeiter des Karlsruher Zoos abgestimmt. Dazu gehören Rollen wie Pfleger, Ärzte, Verwaltungsangestellte und Mitglieder des Managements. Jede Rolle hat spezifische Zugriffsrechte und Funktionen innerhalb des Systems, um die effiziente Verwaltung der Zooverwaltung zu gewährleisten.
+Die Benutzerrollen im System sind auf die verschiedenen Aufgaben und Verantwortlichkeiten der Mitarbeiter des Karlsruher Zoos abgestimmt. Dazu gehören Rollen wie: 
+- Pfleger, 
+- Ärzte, 
+- Verwaltungsangestellte
+- Mitglieder des Managements
+
+Jede Rolle hat spezifische Zugriffsrechte und Funktionen innerhalb des Systems, um die effiziente Verwaltung der Zooverwaltung zu gewährleisten.
 
 Ebenfalls wird eine Administratoren-Rolle für die IT-Verwaltung vorgesehen.
 
