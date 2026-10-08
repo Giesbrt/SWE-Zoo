@@ -17,13 +17,6 @@
 
   // Add AI tools used for this thesis here, according to 4.6 of "Leitlinien für Wissenschaftliche Arbeiten in Bachelorstudiengängen Studienbereich Technik"
   ai-acknowledgement: (
-    (
-      tool: "ChatGPT",
-      usage: [
-        + Vibed chapter 1 - 6
-        + Grammer correction
-      ],
-    ), // This last comma is important, keep it!
   ),
 
   // Long title, displayed on cover slide
@@ -77,8 +70,7 @@
 
   // abstracs: usage: (language, language (displayed), content)
   abstracts: (
-    ("de", "Deutsch", include "misc/abstract-german.typ"),
-    ("en", "English", include "misc/abstract-english.typ"),
+    
   ),
 
   // Appendix can be configured in appendix.typ
@@ -94,9 +86,5 @@
 
 // You can now start writing :)
 
-#include "chapters/introduction.typ"
 #include "chapters/basic_formatting.typ"
-#include "chapters/advanced_elements.typ"
-#include "chapters/references_citations.typ"
-#include "chapters/reference_management.typ"
-#include "chapters/conclusion.typ"
+
