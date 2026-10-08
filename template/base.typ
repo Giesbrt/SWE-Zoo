@@ -448,7 +448,6 @@
       }),
     )
     show heading.where(level: 1): it => {
-      pagebreak(weak: true)
       it
     }
 

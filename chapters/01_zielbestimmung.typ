@@ -4,7 +4,7 @@
 
 Die Stadt Karlsruhe beauftragt eine Verwaltungssoftware für den Zoologischen Stadtgarten Karlsruhe. Die Software soll folgende Ziele erfüllen:
 
-+ Tiere mit ihren Stammdaten (Tierart, Herkunft, Alter, Gesundheitsstatus) sowie Gehege, Ställe, Bereiche, Gebäude, Personal (Tierpfleger, Zootierärzte) u  nd Restaurants auf dem Gelände verwalten
++ Tiere mit ihren Stammdaten (Tierart, Herkunft, Alter, Gesundheitsstatus) sowie Gehege, Ställe, Bereiche, Gebäude, Personal (Tierpfleger, Zootierärzte) und Restaurants auf dem Gelände verwalten
 + Alle Objekte über eine grafische Oberfläche anlegen, suchen, bearbeiten und löschen
 + Tieren Gehege zuweisen sowie Fütterungen und tierärztliche Behandlungen zuordnen und protokollieren
 + Pfleger und Ärzte Bereichen und einzelnen Tieren zuordnen; Qualifikationen des Personals erfassen
