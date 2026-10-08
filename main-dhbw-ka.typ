@@ -57,6 +57,8 @@
 
   processing-period-weeks: 12,
   university-supervisor: "Richard Lutz",
+
+  company-logo: image("template/assets/logo.png"),
 )
 
 // You can now start writing :)
