@@ -56,7 +56,7 @@
   // Remove if your thesis is not written without a company
   company-department: "Human Resources",
   company-supervisor: "Max Mustermann",
-  company-logo: image("assets/placeholder-company-logo.svg"),
+  company-logo: image("assets/kitlogo_de_cmyk.pdf"),
 
   university-supervisor: "Heinrich Braun",
 
