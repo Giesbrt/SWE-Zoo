@@ -1,4 +1,4 @@
-# Zoo-Verwaltung – Projektkontext & Lastenheft-Grundlagen
+# Zoo-Verwaltung - Projektkontext & Lastenheft-Grundlagen
 
 ## Aufgabe (aus Vorlesungsfolien SWE1, DHBW)
 
@@ -23,12 +23,12 @@ Erstellt in **Dreiergruppen** ein Lastenheft für die Applikation **Zoo-Verwaltu
 | Zusatzanlage | Tierpark Oberwald (16 ha, robuste Wildtiere wie Bison, Przewalski-Pferde) |
 
 ### Bereiche & Anlagen (relevant für die Software)
-- **Afrika-Savanne** (Neueröffnung 2023) – Großsäuger, Giraffen, Zebras
-- **Eisbärenanlage** (seit 2000) – arktische Tiere
-- **Affenhaus** – Schimpansen, Primaten
-- **Exotenhaus** – Reptilien, Amphibien
-- **Himalaya-Bergwelt** – Schneeleoparden, Kleine Pandas
-- **Wasseranlagen** – Pinguine, Robben
+- **Afrika-Savanne** (Neueröffnung 2023) - Großsäuger, Giraffen, Zebras
+- **Eisbärenanlage** (seit 2000) - arktische Tiere
+- **Affenhaus** - Schimpansen, Primaten
+- **Exotenhaus** - Reptilien, Amphibien
+- **Himalaya-Bergwelt** - Schneeleoparden, Kleine Pandas
+- **Wasseranlagen** - Pinguine, Robben
 - **Rosengarten** (15.000 Rosen), **Japanischer Garten**
 - **Restaurants / Gastronomie** auf dem Gelände
 - **Tierpark Oberwald** (angegliedert, eigene Verwaltung)
@@ -42,7 +42,7 @@ Erstellt in **Dreiergruppen** ein Lastenheft für die Applikation **Zoo-Verwaltu
 
 ---
 
-## Lastenheft – Allgemeine Struktur (nach R. Lutz, KIT/IAI / DHBW SWE1)
+## Lastenheft - Allgemeine Struktur (nach R. Lutz, KIT/IAI / DHBW SWE1)
 
 Das Lastenheft enthält **11 Pflichtpunkte**:
 
@@ -82,17 +82,17 @@ Das Lastenheft enthält **11 Pflichtpunkte**:
 Das Filmverwaltungsbeispiel dient als Vorlage für Aufbau und Detailtiefe.
 
 ### Struktur des Beispiel-Lastenhefts
-**1. Zielbestimmung** – Verwaltung von Filmen + Datenträgern über grafische GUI; zwei Datenspeicher-Versionen (Textdatei / relationale DB)
+**1. Zielbestimmung** - Verwaltung von Filmen + Datenträgern über grafische GUI; zwei Datenspeicher-Versionen (Textdatei / relationale DB)
 
-**2. Produkteinsatz** – Verwaltung von Filmen und zugehörigen Elementen sowie Datenträgern
+**2. Produkteinsatz** - Verwaltung von Filmen und zugehörigen Elementen sowie Datenträgern
 
 **3. Zielgruppen / Rollen / Verantwortlichkeiten**
 - Zielgruppe: Privatpersonen oder Angestellte mit durchschnittlichen PC-Kenntnissen
 - Rollen: normaler Benutzer (Vollzugriff eigene Daten) + Administrator (alle Daten, Installation, Backup)
 
-**4. Zusammenspiel mit anderen Systemen** – Standalone-System, keine externe Verbindung
+**4. Zusammenspiel mit anderen Systemen** - Standalone-System, keine externe Verbindung
 
-**5. Verfügbarkeit** – Produkt soll Mitte nächsten Jahres verfügbar sein
+**5. Verfügbarkeit** - Produkt soll Mitte nächsten Jahres verfügbar sein
 
 **6. Produktfunktionen**
 - /LF10/ GUI-gestütztes Hinzufügen, Suchen, Löschen, Ändern von Filmen + Datenträgern
@@ -115,28 +115,28 @@ Das Filmverwaltungsbeispiel dient als Vorlage für Aufbau und Detailtiefe.
 - /LL30/ Analoge Mengen für Datenträger, Regisseure, etc.
 - /LL40/ Lauffähig auf MS Windows und UNIX-Derivaten
 
-**9. Benutzungsoberfläche** – Windows-ähnliche Oberfläche
+**9. Benutzungsoberfläche** - Windows-ähnliche Oberfläche
 
-**10. Qualitätsanforderungen** – Funktionalität: sehr gut; Benutzbarkeit: sehr gut; Zuverlässigkeit/Wartbarkeit/Portabilität: gut; Effizienz: normal
+**10. Qualitätsanforderungen** - Funktionalität: sehr gut; Benutzbarkeit: sehr gut; Zuverlässigkeit/Wartbarkeit/Portabilität: gut; Effizienz: normal
 
-**11. Ergänzungen** – Tests: Einlesen fehlerhafter Dateien, Close-Loop-Test, Zweifacher Close-Loop-Test
+**11. Ergänzungen** - Tests: Einlesen fehlerhafter Dateien, Close-Loop-Test, Zweifacher Close-Loop-Test
 
 ---
 
 ## Hinweise für Zoo-Verwaltung (eigenes Lastenheft)
 
 ### Relevante Entitäten (aus Aufgabenstellung)
-- **Tiere** – Tierinformationen, Tierart, Herkunft, Gesundheitsstatus
-- **Tierarten / Taxonomie** – Hierarchie (Klasse → Ordnung → Familie → Art)
-- **Gehege** – Typ, Kapazität, Zustand
-- **Ställe / Innengehege** – zugeordnet zu Gehegen
-- **Bereiche** – z.B. Afrika-Savanne, Affenhaus (Hierarchie: Bereich → Gehege)
-- **Gebäude** – Tierhäuser, Verwaltungsgebäude, Restaurants
-- **Pfleger** – Qualifikationen, Zuordnung zu Bereichen/Tieren
-- **Ärzte (Zootierärzte)** – Untersuchungen, Behandlungen
-- **Futter** – Futterarten, Lagerbestand
-- **Fütterungen** – Zeitplan, Menge, Tier, Pfleger
-- **Restaurants** – Standort im Zoo, Öffnungszeiten
+- **Tiere** - Tierinformationen, Tierart, Herkunft, Gesundheitsstatus
+- **Tierarten / Taxonomie** - Hierarchie (Klasse → Ordnung → Familie → Art)
+- **Gehege** - Typ, Kapazität, Zustand
+- **Ställe / Innengehege** - zugeordnet zu Gehegen
+- **Bereiche** - z.B. Afrika-Savanne, Affenhaus (Hierarchie: Bereich → Gehege)
+- **Gebäude** - Tierhäuser, Verwaltungsgebäude, Restaurants
+- **Pfleger** - Qualifikationen, Zuordnung zu Bereichen/Tieren
+- **Ärzte (Zootierärzte)** - Untersuchungen, Behandlungen
+- **Futter** - Futterarten, Lagerbestand
+- **Fütterungen** - Zeitplan, Menge, Tier, Pfleger
+- **Restaurants** - Standort im Zoo, Öffnungszeiten
 
 ### Besondere Anforderungen aus der Aufgabe
 - **Zuordnungen**: Tiere ↔ Gehege, Pfleger ↔ Tiere/Bereiche, Ärzte ↔ Tiere, Futter ↔ Tiere
@@ -166,14 +166,14 @@ Das Filmverwaltungsbeispiel dient als Vorlage für Aufbau und Detailtiefe.
 
 Für die spätere Analysephase vorzubereiten:
 
-1. **Use-Case-Diagramm** – Welche Funktionen sollen realisiert werden?
-2. **Klassen-Diagramm (ohne Assoziationen)** – Welche Objekte/Klassen gibt es?
-3. **Klassen-Diagramm (mit Assoziationen + Multiplizitäten)** – Wie hängen sie zusammen?
-4. **Package-Diagramm** – Welche Module sollen realisiert werden?
+1. **Use-Case-Diagramm** - Welche Funktionen sollen realisiert werden?
+2. **Klassen-Diagramm (ohne Assoziationen)** - Welche Objekte/Klassen gibt es?
+3. **Klassen-Diagramm (mit Assoziationen + Multiplizitäten)** - Wie hängen sie zusammen?
+4. **Package-Diagramm** - Welche Module sollen realisiert werden?
 
 ---
 
 ## Quellen
-- `infos/Allg_Lastenheft_2021-10-18.pdf` – Allgemeine Lastenheft-Theorie (R. Lutz, KIT/IAI)
-- `infos/Aufg-Filmverwaltung_Lastenheft_2022-11-08.pdf` – Beispiel-Lastenheft Filmverwaltung + Analyse (R. Lutz, KIT-CN/IAI)
+- `infos/Allg_Lastenheft_2021-10-18.pdf` - Allgemeine Lastenheft-Theorie (R. Lutz, KIT/IAI)
+- `infos/Aufg-Filmverwaltung_Lastenheft_2022-11-08.pdf` - Beispiel-Lastenheft Filmverwaltung + Analyse (R. Lutz, KIT-CN/IAI)
 - Wikipedia: Zoologischer Stadtgarten Karlsruhe

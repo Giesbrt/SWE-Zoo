@@ -6,7 +6,7 @@ Die folgenden Daten werden dauerhaft in einer relationalen Datenbank gespeichert
 
 /LD10/ *Tiere:* Name, Tierart, Geschlecht, Geburtsdatum, Herkunft, Gesundheitsstatus und weitere Tierinformationen. Jedes Tier ist genau einem Gehege zugeordnet.
 
-/LD20/ *Tierarten (Taxonomie):* Bezeichnung (deutsch und wissenschaftlich) und taxonomische Einordnung in der Hierarchie Klasse – Ordnung – Familie – Art.
+/LD20/ *Tierarten (Taxonomie):* Bezeichnung (deutsch und wissenschaftlich) und taxonomische Einordnung in der Hierarchie Klasse - Ordnung - Familie - Art.
 
 /LD30/ *Bereiche:* Name (z.B. Afrika-Savanne, Affenhaus) und zugeordnete Gehege. Bereiche können dem Zoo oder dem angegliederten Tierpark Oberwald angehören.
 
@@ -38,16 +38,16 @@ Die folgenden Daten werden dauerhaft in einer relationalen Datenbank gespeichert
 
 Die Produktdaten enthalten folgende Zuordnungen:
 
-- Tier – Gehege (ein Gehege enthält mehrere Tiere, ein Tier lebt in genau einem Gehege)
-- Tier – Tierart (jedes Tier gehört genau einer Tierart an)
-- Pfleger – Bereich und Pfleger – Tier
-- Arzt – Tier (über Behandlungen und Untersuchungen)
-- Futter – Tierart und Fütterung – Tier, Futter, Pfleger
-- Gehege/Stall – Gebäude
-- Restaurant – Gebäude
+- Tier - Gehege (ein Gehege enthält mehrere Tiere, ein Tier lebt in genau einem Gehege)
+- Tier - Tierart (jedes Tier gehört genau einer Tierart an)
+- Pfleger - Bereich und Pfleger - Tier
+- Arzt - Tier (über Behandlungen und Untersuchungen)
+- Futter - Tierart und Fütterung - Tier, Futter, Pfleger
+- Gehege/Stall - Gebäude
+- Restaurant - Gebäude
 
 Die Produktdaten bilden folgende Hierarchien ab:
 
-- Zoo/Tierpark – Bereich – Gehege – Tier (bzw. Gehege – Stall)
-- Taxonomie: Klasse – Ordnung – Familie – Art
-- Personalstruktur: Zooleitung – Abteilungen – Mitarbeiter
+- Zoo/Tierpark - Bereich - Gehege - Tier (bzw. Gehege - Stall)
+- Taxonomie: Klasse - Ordnung - Familie - Art
+- Personalstruktur: Zooleitung - Abteilungen - Mitarbeiter
