@@ -291,11 +291,16 @@
     align: (_, row) => (center + top, center + top, center + bottom).at(row),
     // Left and right logo
     {
-      set image(height: 2.5cm)
-
       grid(
         columns: (1fr, 1fr),
-        align(left, __logo-left), align(right, __logo-right),
+        {
+          set image(height: 3.5cm)
+          align(left, __logo-left)
+        },
+        {
+          set image(height: 2.5cm)
+          align(right, __logo-right)
+        },
       )
     },
 
