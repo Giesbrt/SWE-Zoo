@@ -1,26 +1,20 @@
 // LTeX: enabled=false
 
 #import "@preview/linguify:0.5.0": linguify, linguify-raw
-#import "base.typ": __signature-line, project
+#import "base.typ": project
 #import "utils.typ": __linguify-content, styled-table
 
 /// Template adapter for DHBW Karlsruhe thesis documents.
 ///
 /// This function configures the base `project` template with DHBW Karlsruhe-specific
-/// settings, including statutory declarations, confidentiality clauses,
-/// and AI tool acknowledgements according to DHBW guidelines.
+/// settings, including confidentiality clauses and AI tool acknowledgements
+/// according to DHBW guidelines.
 ///
 /// In addition to the parameters listed below, this adapter accepts all parameters
 /// from the base `project` template (e.g., `title-long`, `title-short`, `thesis-type`,
 /// `abstracts`, `appendices`, `library`, `abbreviations`, `lang`).
 /// -> content
 #let dhbw-ka-adapter(
-  /// Whether the thesis is submitted digitally. Affects the signature line
-  /// display in the statutory declaration. -> bool
-  digital-submission: true,
-  /// Whether the thesis is submitted digitally only (no printed copy).
-  /// Affects the wording of the statutory declaration. -> bool
-  digital-only: true,
   /// Whether to include a confidentiality clause page. -> bool
   confidentiality-clause: true,
   /// List of AI tools used in the thesis, according to section 4.6 of
@@ -48,8 +42,6 @@
       signature: none,
     ),
   ),
-  /// City shown on the signature line. -> str
-  signature-city: "Karlsruhe",
   /// Submission date of the thesis. -> str
   submission-date: datetime.today().display("[day].[month].[year]"),
   /// Format string for displaying the submission date. (see #link("https://typst.app/docs/reference/foundations/datetime/#format")[datetime formats]) -> str
@@ -154,83 +146,6 @@
     ))
   }
 
-  // Statutory Declaration
-  let statutory-declaration = {
-    pagebreak(weak: true)
-    // Get course year of first author
-    if authors == none or type(authors) != array or authors.len() == 0 {
-      panic("At least one author has to be specified!")
-    }
-
-    let course-year = int(authors.at(0).course.find(regex("\d+")))
-
-    // TODO: The statutory declaration changed for courses starting in 2024. This complicated edge case for courses from 2023
-    // and earlier can safely be removed by September 2026
-    let statuatory-declaration = if course-year < 24 {
-      context __linguify-content("statutory-declaration-note-dhbw-old", args: (
-        author-count: authors.len(),
-        title: args.at("title-long"),
-        type: args.at("thesis-type"),
-      ))
-    } else {
-      context __linguify-content("statutory-declaration-note-dhbw", args: (
-        author-count: authors.len(),
-      ))
-    }
-
-    let statuatory-declaration-printed = if course-year < 24 {
-      context __linguify-content(
-        "statutory-declaration-note-dhbw-old-printed",
-        args: (
-          author-count: authors.len(),
-        ),
-      )
-    } else {
-      context __linguify-content(
-        "statutory-declaration-note-dhbw-printed",
-        args: (
-          author-count: authors.len(),
-        ),
-      )
-    }
-
-    let lang = args.named().at("lang", default: "en")
-    align(center, {
-      context heading(level: 1, {
-        __linguify-content("statutory-declaration")
-      })
-      if lang != "de" {
-        text(1em, weight: "light", style: "italic", [\- Deutsch -])
-      }
-    })
-
-    statuatory-declaration
-    if not digital-only {
-      (
-        " " + statuatory-declaration-printed
-      )
-    }
-
-    // TODO: Just like above, this check for course-year >= 24 can be removed after September 2026 as all courses will use that statutory declaration.
-    if course-year >= 24 and ai-acknowledgement.len() > 0 {
-      linebreak()
-      context __linguify-content("statutory-declaration-note-dhbw-ai", args: (
-        author-count: authors.len(),
-      ))
-    }
-
-    set grid.cell(align: left, inset: (x: 1em, y: 0.3em))
-
-    for a in authors {
-      __signature-line(
-        author: a,
-        date: submission-date,
-        digital: digital-submission,
-        city: signature-city,
-      )
-    }
-  }
-
   // Confidentiality Clause
   let confidentiality-clause-text = {
     pagebreak()
@@ -251,7 +166,6 @@
     __metadata: metadata,
     __confidentiality-clause: confidentiality-clause,
     __postamble: (
-      statutory-declaration,
       ..if (confidentiality-clause) { (confidentiality-clause-text,) },
       ..if (ai-acknowledgement.len() > 0) {
         (ai-acknowledgement-text,)
