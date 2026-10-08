@@ -13,11 +13,9 @@
   digital-only: true,
 
   // Set to false if you do not need a confidentiality clause
-  confidentiality-clause: true,
+  confidentiality-clause: false,
 
   // Add AI tools used for this thesis here, according to 4.6 of "Leitlinien für Wissenschaftliche Arbeiten in Bachelorstudiengängen Studienbereich Technik"
-  ai-acknowledgement: (
-  ),
 
   // Long title, displayed on cover slide
   title-long: "Writing in Typst about a long, very scientific topic",
@@ -59,29 +57,6 @@
   company-logo: image("assets/placeholder-company-logo.svg"),
 
   university-supervisor: "Heinrich Braun",
-
-  // acknowledgements: usage: (
-  //   content: [content] || include("front-matter/acknowledgements.typ")
-  // )
-  // remove property to remove acknowledgements
-  acknowledgements: (
-    include "misc/acknowledgments.typ"
-  ),
-
-  // abstracs: usage: (language, language (displayed), content)
-  abstracts: (
-    
-  ),
-
-  // Appendix can be configured in appendix.typ
-  // remove property to remove appendices
-  appendices: appendices,
-
-  // Bibliography
-  library: bibliography("refs.bib"),
-
-  abbreviations: abbreviations,
-  glossary: glossary,
 )
 
 // You can now start writing :)
