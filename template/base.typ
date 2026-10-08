@@ -294,7 +294,7 @@
       grid(
         columns: (1fr, 1fr),
         {
-          set image(height: 3.5cm)
+          set image(height: 4.5cm)
           align(left, __logo-left)
         },
         {
