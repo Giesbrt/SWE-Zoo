@@ -1,7 +1,6 @@
 // LTeX: enabled=false
 #import "template/lib.typ": caption-with-source, dhbw-ka-adapter
 #import "glossary.typ": abbreviations, glossary
-#import "appendix.typ": appendices
 
 #show: dhbw-ka-adapter.with(
   lang: "de",
@@ -55,7 +54,7 @@
   // Set to specific date with "24.12.2026"
   submission-date: datetime.today().display("[day].[month].[year]"),
 
-  processing-period-weeks: 12,
+  processing-period-weeks: 1,
   university-supervisor: "Richard Lutz",
 
   company-logo: image("template/assets/logo.png"),

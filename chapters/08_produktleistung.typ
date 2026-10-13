@@ -2,7 +2,7 @@
 
 = Produktleistung
 
-/LL10/ Die Software verfügt über eine grafische Benutzeroberfläche und ist ohne Vorkenntnisse in der Software-Entwicklung bedienbar.
+/LL10/ Die Software verfügt über eine grafische Benutzeroberfläche und ist ohne spezielle Vorkenntnisse bedienbar.
 
 /LL20/ Das System verwaltet den aktuellen Tierbestand des Zoologischen Stadtgartens Karlsruhe (ca. 6.800 Tiere, 326 Tierarten) sowie den des Tierparks Oberwald. Die Anzahl verwalteter Tiere ist nach oben prinzipiell unbegrenzt.
 

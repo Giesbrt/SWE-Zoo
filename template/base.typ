@@ -470,7 +470,7 @@
       bibliography(
         "../" + library,
       )
-    } else {
+    } else if library != none and library != () {
       library
     }
   }

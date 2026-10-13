@@ -6,11 +6,11 @@ Die folgenden Daten werden dauerhaft in einer relationalen Datenbank gespeichert
 
 /LD10/ *Tiere:* Name, Tierart, Geschlecht, Geburtsdatum, Herkunft, Gesundheitsstatus und weitere Tierinformationen. Jedes Tier ist genau einem Gehege zugeordnet.
 
-/LD20/ *Tierarten (Taxonomie):* Bezeichnung (deutsch und wissenschaftlich) und taxonomische Einordnung in der Hierarchie Klasse - Ordnung - Familie - Art.
+/LD20/ *Tierarten (Taxonomie und Tierinformationen):* Bezeichnung (deutsch und wissenschaftlich), taxonomische Einordnung in der Hierarchie Klasse - Ordnung - Familie - Art sowie beschreibende Tierinformationen (natürlicher Lebensraum, Verhalten, Erhaltungsstatus nach IUCN, ggf. Schutzprogramm).
 
 /LD30/ *Bereiche:* Name (z.B. Afrika-Savanne, Affenhaus) und zugeordnete Gehege. Bereiche können dem Zoo oder dem angegliederten Tierpark Oberwald angehören.
 
-/LD40/ *Gehege:* Bezeichnung, Typ, Kapazität, Zustand und der zugehörige Bereich. Einem Gehege sind beliebig viele Tiere und Ställe zugeordnet, höchstens jedoch bis zur Kapazität des Geheges.
+/LD40/ *Gehege:* Bezeichnung, Typ, Kapazität, Zustand und der zugehörige Bereich. Einem Gehege können Tiere und Ställe zugeordnet werden, maximal bis zur angegebenen Kapazität.
 
 /LD50/ *Ställe (Innengehege):* Bezeichnung, Kapazität und das zugehörige Gehege sowie ggf. das Gebäude, in dem sie liegen.
 

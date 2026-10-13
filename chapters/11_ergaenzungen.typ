@@ -6,7 +6,7 @@
 
 *Datenschutz:* Personenbezogene Daten der Mitarbeiter (Pfleger, Ärzte) unterliegen der DSGVO. Das System speichert nur die für den Betrieb notwendigen Personaldaten und schränkt den Zugriff auf berechtigte Rollen ein (siehe /LD140/).
 
-*Qualität der Import- und Exportfunktionen* (/LF130/) wird durch folgende Tests nachgewiesen:
+*Die Qualität der Import- und Exportfunktionen* (/LF130/) wird durch folgende Tests nachgewiesen:
 
 - Einlesen fehlerhafter Dateien: Das System weist fehlerhafte Datensätze zurück und importiert fehlerfreie Datensätze korrekt.
 - Close-Loop-Test: Exportierte Daten werden reimportiert und mit dem Ausgangsbestand verglichen — beide müssen identisch sein.
