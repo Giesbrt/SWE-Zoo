@@ -6,19 +6,19 @@
 
 /LF20/ Der Benutzer kann Gehege, Ställe, Bereiche und Gebäude anlegen, bearbeiten und löschen sowie deren Kapazität und Zustand erfassen.
 
-/LF30/ Der Benutzer kann Tiere einem Gehege zuweisen. Die Zuweisung erfolgt über eine Auswahlliste aller vorhandenen Gehege. Einem Tier ist zu jedem Zeitpunkt genau ein Gehege zugeordnet.
+/LF30/ Der Benutzer kann Tiere per Auswahlliste einem Gehege zuweisen; einem Tier ist zu jedem Zeitpunkt genau ein Gehege zugeordnet.
 
 /LF40/ Der Benutzer kann Fütterungen für ein Tier erfassen: Datum, Uhrzeit, Futtermittel, Menge und zuständiger Pfleger. Wiederkehrende Fütterungen lassen sich als Fütterungsplan anlegen und automatisch einplanen.
 
-/LF50/ Der Benutzer kann den Futtermittelbestand verwalten (Futtermittelart, Lagerort, Menge, Mindestbestand). Das System zeigt an, welche Futtermittel den Mindestbestand unterschreiten.
+/LF50/ Der Benutzer kann den Futtermittelbestand verwalten (Art, Lagerort, Menge, Mindestbestand); Unterschreitungen des Mindestbestands werden automatisch gemeldet.
 
-/LF60/ Der Benutzer kann tierärztliche Behandlungen und Untersuchungen zu einem Tier erfassen: Datum, Diagnose, Maßnahme und behandelnder Arzt. Die Behandlungshistorie eines Tieres ist chronologisch abrufbar.
+/LF60/ Der Benutzer kann tierärztliche Behandlungen zu einem Tier erfassen (Datum, Diagnose, Maßnahme, Arzt); die Behandlungshistorie ist chronologisch abrufbar.
 
 /LF70/ Der Benutzer kann Personal (Tierpfleger, Zootierärzte) anlegen und Bereichen sowie einzelnen Tieren zuordnen. Qualifikationen und Zuständigkeiten des Personals werden gespeichert.
 
 /LF80/ Das System zeigt zu jedem Tier alle zugeordneten Informationen (Gehege, Fütterungen, Behandlungen, Pfleger) direkt an.
 
-/LF90/ Die Suchfunktion ermöglicht das Suchen nach Tieren, Tierarten, Pflegern, Gehegen und Behandlungen. Die Suche unterstützt Wildcards und filtert nach mehreren Kriterien gleichzeitig.
+/LF90/ Die Suchfunktion unterstützt Wildcards und Mehrfach-Filter für Tiere, Tierarten, Pfleger, Gehege und Behandlungen.
 
 /LF100/ Alle Listen (Tiere, Gehege, Personal usw.) lassen sich alphabetisch oder nach weiteren Kriterien (z.B. Bereich, Tierart) sortieren.
 

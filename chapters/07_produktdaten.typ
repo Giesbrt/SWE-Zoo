@@ -36,18 +36,6 @@ Die folgenden Daten werden dauerhaft in einer relationalen Datenbank gespeichert
 
 == Zuordnungen und Hierarchien
 
-Die Produktdaten enthalten folgende Zuordnungen:
+*Zuordnungen:* Tier–Gehege (n:1), Tier–Tierart, Pfleger–Bereich/Tier, Arzt–Tier, Futter–Tierart, Fütterung–Tier/Futter/Pfleger, Gehege/Stall–Gebäude, Restaurant–Gebäude.
 
-- Tier - Gehege (ein Gehege enthält mehrere Tiere, ein Tier lebt in genau einem Gehege)
-- Tier - Tierart (jedes Tier gehört genau einer Tierart an)
-- Pfleger - Bereich und Pfleger - Tier
-- Arzt - Tier (über Behandlungen und Untersuchungen)
-- Futter - Tierart und Fütterung - Tier, Futter, Pfleger
-- Gehege/Stall - Gebäude
-- Restaurant - Gebäude
-
-Die Produktdaten bilden folgende Hierarchien ab:
-
-- Zoo/Tierpark - Bereich - Gehege - Tier (bzw. Gehege - Stall)
-- Taxonomie: Klasse - Ordnung - Familie - Art
-- Personalstruktur: Zooleitung - Abteilungen - Mitarbeiter
+*Hierarchien:* Zoo/Tierpark → Bereich → Gehege → Tier (bzw. Stall); Taxonomie: Klasse → Ordnung → Familie → Art; Personalstruktur: Zooleitung → Abteilungen → Mitarbeiter.

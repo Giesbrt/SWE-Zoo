@@ -4,12 +4,12 @@
 
 *Plattform:* Das Produkt läuft auf Windows 10/11 und aktuellen Linux-Distributionen. Eine Weboberfläche ist nicht gefordert.
 
-*Datenschutz:* Personenbezogene Daten der Mitarbeiter (Pfleger, Ärzte) unterliegen der DSGVO. Das System speichert nur die für den Betrieb notwendigen Personaldaten und schränkt den Zugriff auf berechtigte Rollen ein (siehe /LD140/).
+*Datenschutz:* Personenbezogene Mitarbeiterdaten unterliegen der DSGVO; das System speichert nur betriebsnotwendige Daten und beschränkt den Zugriff auf berechtigte Rollen (→ /LD140/).
 
 *Die Qualität der Import- und Exportfunktionen* (/LF130/) wird durch folgende Tests nachgewiesen:
 
-- Einlesen fehlerhafter Dateien: Das System weist fehlerhafte Datensätze zurück und importiert fehlerfreie Datensätze korrekt.
-- Close-Loop-Test: Exportierte Daten werden reimportiert und mit dem Ausgangsbestand verglichen — beide müssen identisch sein.
-- Zweifacher Close-Loop-Test: Der Close-Loop-Test wird ein zweites Mal auf dem reimportierten Datenbestand durchgeführt.
+- Einlesen fehlerhafter Dateien: fehlerhafte Datensätze werden zurückgewiesen, fehlerfreie korrekt importiert.
+- Close-Loop-Test: exportierte Daten werden reimportiert und müssen mit dem Ausgangsbestand identisch sein.
+- Zweifacher Close-Loop-Test: der Close-Loop-Test wird auf dem reimportierten Datenbestand wiederholt.
 
-*Entwicklungsumgebung:* Die eingesetzte Programmiersprache und das Datenbanksystem werden im Pflichtenheft festgelegt.
+*Entwicklungsumgebung:* Programmiersprache und Datenbanksystem werden im Pflichtenheft festgelegt.
