@@ -37,6 +37,6 @@ Die folgenden Daten werden dauerhaft in einer relationalen Datenbank gespeichert
 
 == Zuordnungen und Hierarchien
 
-*Zuordnungen:* Tier–Gehege (n:1), Tier–Tierart, Pfleger–Bereich/Tier, Arzt–Tier, Futter–Tierart, Fütterung–Tier/Futter/Pfleger, Gehege/Stall–Gebäude, Restaurant–Gebäude.
+*Zuordnungen:* Tier-Gehege (n:1), Tier-Tierart, Pfleger-Bereich/Tier, Arzt-Tier, Futter-Tierart, Fütterung-Tier/Futter/Pfleger, Gehege/Stall-Gebäude, Restaurant-Gebäude.
 
 *Hierarchien:* Zoo/Tierpark → Bereich → Gehege → Tier (bzw. Stall); Taxonomie: Klasse → Ordnung → Familie → Art; Personalstruktur: Zooleitung → Abteilungen → Mitarbeiter.

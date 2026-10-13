@@ -1,59 +1,34 @@
-// Specify abbreviations here.
-// The key is used to reference the acronym.
-// The short form is used every time and the long form is used
-// additionally the first time you reference the acronym.
+// Abkürzungen die im Heft verwendet werden.
 #let abbreviations = (
-  (key: "NN", short: "NN", long: "Neural Network"),
-  (key: "SG", short: "SG", long: "Singular"),
+  (key: "CSV",  short: "CSV",  long: "Comma-Separated Values"),
+  (key: "DSGVO", short: "DSGVO", long: "Datenschutz-Grundverordnung"),
+  (key: "EAZA", short: "EAZA", long: "European Association of Zoos and Aquaria"),
+  (key: "GUI",  short: "GUI",  long: "Graphical User Interface"),
+  (key: "IUCN", short: "IUCN", long: "International Union for Conservation of Nature"),
+  (key: "SSO",  short: "SSO",  long: "Single Sign-On"),
+  (key: "ZIMS", short: "ZIMS", long: "Zoological Information Management System"),
 )
 
-// Specify glossary terms here for term definitions (not abbreviations).
-// The key is used to reference the term.
-// The long form is the term and the short form is the abbreviation (only if you need it).
-// The description is used for the detailed explanation of the term.
-// Set to empty array () if you don't need a glossary.
+// Fachbegriffe
 #let glossary = (
   (
-    key: "typ",
-    short: "Typst",
-    description: "Typst is a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use.",
+    key: "gehege",
+    short: "Gehege",
+    description: "Räumlich abgegrenzter Außenbereich zur Tierhaltung innerhalb eines Zoobereichs.",
   ),
   (
-    key: "glossarium",
-    short: "Glossarium",
-    description: [Glossarium is a simple, easily customizable typst glossary inspired by the #link("https://www.ctan.org/pkg/glossaries", "LaTeX glossaries package")],
-    group: "Dependencies",
+    key: "stall",
+    short: "Stall / Innengehege",
+    description: "Überdachter Innenbereich, der einem Gehege zugeordnet ist und den Tieren Schutz bietet.",
   ),
   (
-    key: "drafting",
-    short: "Drafting",
-    description: [
-      The Drafting package contains functions for content positioning and margin comments/notes.
-    ],
-    group: "Dependencies",
+    key: "taxonomie",
+    short: "Taxonomie",
+    description: "Biologische Klassifikation von Lebewesen in hierarchischen Rangstufen: Klasse → Ordnung → Familie → Art.",
   ),
   (
-    key: "codly",
-    short: "Codly",
-    description: [
-      Codly provides styled code blocks with many features like smart indentation, line numbering, highlighting, etc.
-    ],
-    group: "Dependencies",
-  ),
-  (
-    key: "hydra",
-    short: "Hydra",
-    description: [
-      Hydra is a Typst package allowing easily displaying the current heading in the page header.
-    ],
-    group: "Dependencies",
-  ),
-  (
-    key: "linguify",
-    short: "Linguify",
-    description: [
-      Linguify brings #link("https://projectfluent.org/fluent/guide/", "fluent") support to typst, enabling easy i18n.
-    ],
-    group: "Dependencies",
+    key: "zims",
+    short: "ZIMS",
+    description: "Zoological Information Management System; internationale Zootierdatenbank von Species360 für Herkunft, Zucht und Transfer von Zootieren.",
   ),
 )

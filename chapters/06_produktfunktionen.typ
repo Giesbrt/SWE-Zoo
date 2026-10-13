@@ -9,7 +9,7 @@
 
 #req("LF30") Der Benutzer kann Tiere per Auswahlliste einem Gehege zuweisen; einem Tier ist zu jedem Zeitpunkt genau ein Gehege zugeordnet.
 
-#req("LF40") Der Benutzer kann Fütterungen für ein Tier erfassen: Datum, Uhrzeit, Futtermittel, Menge und zuständiger Pfleger. Wiederkehrende Fütterungen lassen sich als Fütterungsplan anlegen und automatisch einplanen.
+#req("LF40") Der Benutzer kann Fütterungen für ein Tier erfassen: Datum, Uhrzeit, Futtermittel, Menge und zuständiger Pfleger. Wiederkehrende Fütterungen lassen sich als Fütterungsplan anlegen, der regelmäßig anfallende Termine vorgibt.
 
 #req("LF50") Der Benutzer kann den Futtermittelbestand verwalten (Art, Lagerort, Menge, Mindestbestand); Unterschreitungen des Mindestbestands werden automatisch gemeldet.
 
@@ -27,4 +27,6 @@
 
 #req("LF120") Der Benutzer kann die Zoohierarchie (Bereiche → Gehege → Tiere), die taxonomische Einordnung einer Tierart (Klasse, Ordnung, Familie, Art) sowie die zugehörigen Tierinformationen einsehen und pflegen.
 
-#req("LF130") Das System stellt Import- und Exportfunktionen für alle Kerndaten in einem lesbaren Format (z.B. CSV) bereit — einzeln und gesamt (siehe #rref("S1")).
+#req("LF130") Das System stellt Import- und Exportfunktionen für alle Kerndaten in einem lesbaren Format (z.B. CSV) bereit, einzeln und gesamt (siehe #rref("S1")).
+
+#req("LF140") Der Benutzer kann Restaurants (Name, Standort, Öffnungszeiten) anlegen, bearbeiten und löschen.

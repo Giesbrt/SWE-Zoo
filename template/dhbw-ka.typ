@@ -53,7 +53,7 @@
   /// Name of the training company. -> str | none
   company-name: "SAP SE / KIT",
   /// City where the company is located. -> str | none
-  company-city: "Karlsruhe",
+  company-city: "Walldorf / Karlsruhe",
   /// Company logo image. -> content | none
   company-logo: none,
   /// Department within the company. -> str | none

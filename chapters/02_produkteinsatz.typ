@@ -1,9 +1,5 @@
 #import "../template/lib.typ": tablefigure
 
-/*Zoo-Verwaltung
-(Tiere, Pfleger, Ärzte, Gehege, Ställe, Bereiche, Gebäude, Futter, Fütterungen,
-Tierinformationen, Restaurants uvm. + Zuordnungen + Hierarchien)*/
-
 = Produkteinsatz
 
 Das Produkt dient zur alltäglichen Abwicklung der Verwaltungsaufgaben im Karlsruher Zoo.

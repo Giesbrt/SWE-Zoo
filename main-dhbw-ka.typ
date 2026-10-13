@@ -55,7 +55,7 @@
   submission-date: datetime.today().display("[day].[month].[year]"),
 
   processing-period-weeks: 1,
-  university-supervisor: "Richard Lutz",
+  university-supervisor: "Dr. Richard Lutz",
 
   company-logo: image("template/assets/logo.png"),
 )

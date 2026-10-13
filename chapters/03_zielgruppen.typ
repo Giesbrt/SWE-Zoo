@@ -5,13 +5,15 @@
 == Zielgruppen
 Zielgruppe sind die Mitarbeiter des Karlsruher Zoos (Tierpfleger, Zootierärzte, Verwaltungsangestellte, Management); durchschnittliche Computerkenntnisse werden vorausgesetzt.
 
-== Benutzerrollen
-Das System kennt folgende Rollen:
-- Tierpfleger
-- Zootierärzte
-- Verwaltungsangestellte
-- Mitglieder des Managements
-- Administrator (IT-Verwaltung)
+== Benutzerrollen und Verantwortlichkeiten
 
-== Verantwortlichkeiten
-Jeder Benutzer hat nur Zugriff auf die seiner Rolle zugeordneten Funktionen und Daten. Erweiterte Rechte werden durch den Administrator vergeben, der Vollzugriff auf alle Systemfunktionen hat.
+#table(
+  columns: (1.4fr, 2.6fr),
+  stroke: 0.5pt,
+  table.header([*Rolle*], [*Zugriffsrechte*]),
+  [Tierpfleger],          [Fütterungen erfassen; Tier- und Gehegedaten lesen],
+  [Zootierarzt],          [Behandlungen und Gesundheitsdaten lesen / schreiben; Tierdaten lesen],
+  [Verwaltungsangestellte],[Stammdaten (Tiere, Personal, Gehege, Futter) anlegen und bearbeiten; keine Gesundheitsdaten],
+  [Management],           [Lesezugriff auf alle Daten; Berichte abrufen],
+  [Administrator],        [Vollzugriff; Benutzerverwaltung, Installation, Backup],
+)
